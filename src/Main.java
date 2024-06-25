@@ -50,11 +50,11 @@ public class Main {
 //Задание №4
         System.out.println(" ");
         System.out.println("Задание №4");
-        byte bottlesTwoMinutes= 16;
-        byte minutes= 20;
-        int day= 1440;
-        int day3= day * 3;
-        int month= day * 30;
+        byte bottlesTwoMinutes= 16; // количетсво бутылок
+        byte minutes= 20;  // 20 минут
+        int day= 1440; // сутки
+        int day3= day * 3;  // 3 дня
+        int month= day * 30; // месяц
         int bottlesOneMinutes= bottlesTwoMinutes / 2; //8 бутылок за 1 минуту
         int bottlesTwentyMinutes= bottlesOneMinutes * minutes; // количество бутылок за 20 минут
         int bottlesOneDay= bottlesOneMinutes * day; // количество бутылок за сутки
