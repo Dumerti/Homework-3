@@ -100,7 +100,7 @@ public class Main {
         int weight1= 250; // 250 грамм в день
         int weight2= 500; // 500 грамм в день
         int needWeight= 7; // 7 килограмм нужно сбросить
-        int needDay1= (needWeight * 1000) / weight1;
+        int needDay1= (needWeight * 1000) / weight1; // нужное количество дней
         int needDay2= (needWeight * 1000) / weight2;
         System.out.println("При потери веса " + weight1 + " грамм за день, то понадобиться " + needDay1 + " дней");
         System.out.println("При потери веса " + weight2 + " грамм за день, то понадобиться " + needDay2 + " дней");
