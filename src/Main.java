@@ -67,7 +67,7 @@ public class Main {
 //Задание №5
         System.out.println(" ");
         System.out.println("Задание №5");
-        byte allPotPaint= 120;
+        byte allPotPaint= 120; // общее количество банок краски
         byte whitePaintOneClass= 2; // 2 банки белой краски на один класс
         byte brownPaintOneClass= 4; // 4 банки коричневой краски на один класс
         int allPotOneClass= whitePaintOneClass + brownPaintOneClass;
